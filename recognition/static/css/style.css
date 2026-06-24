@@ -1,0 +1,58 @@
+.hero-gradient{
+    background:linear-gradient(135deg,#2e7d32,#66bb6a);
+}
+
+.stat-tile{
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 1rem;
+    padding: .8rem 1rem;
+   
+    color: #fff;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+
+.state-title{
+    font-size: 18px;
+    opacity: .8;
+    font-weight: 600;
+}
+
+.state-value{
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+.glass-btn-outline-light{
+    border-radius: 25px !important;
+    border: 1px solid white !important;
+    background: rgba(255,255,255,0.15);
+    color: white !important;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    padding: 10px 22px;
+    transition: 0.3s;
+}
+
+.glass-btn-outline-light:hover{
+    background: rgba(255,255,255,0.3);
+    border-color: white !important;
+}
+
+.up-stats{
+    transform: translateY(-100px);
+}
+
+/* Buttons /cards rounded shape */
+.card { border-radius: 1rem; }
+.btn { border-radius: 8rem; }
